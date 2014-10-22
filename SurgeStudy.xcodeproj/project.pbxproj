@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F728461E19F7B38A008D81A8 /* Surge.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = F740490619F792E800F58A9E /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F728462019F7BCDF008D81A8 /* SurgeAddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728461F19F7BCDF008D81A8 /* SurgeAddTests.swift */; };
+		F728462219F7CB59008D81A8 /* SurgeSqrtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728462119F7CB59008D81A8 /* SurgeSqrtTests.swift */; };
 		F74048E119F7734000F58A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048E019F7734000F58A9E /* AppDelegate.swift */; };
 		F74048E319F7734000F58A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048E219F7734000F58A9E /* ViewController.swift */; };
 		F74048E619F7734000F58A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74048E419F7734000F58A9E /* Main.storyboard */; };
 		F74048E819F7734000F58A9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74048E719F7734000F58A9E /* Images.xcassets */; };
 		F74048EB19F7734000F58A9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74048E919F7734000F58A9E /* LaunchScreen.xib */; };
-		F74048F719F7734000F58A9E /* SurgeStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048F619F7734000F58A9E /* SurgeStudyTests.swift */; };
+		F74048F719F7734000F58A9E /* SurgeSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048F619F7734000F58A9E /* SurgeSumTests.swift */; };
+		F740490B19F7941300F58A9E /* Surge.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = F740490619F792E800F58A9E /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F728461919F7ABB9008D81A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F740490019F792E800F58A9E /* Surge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A1E1A919917A79009735E2;
+			remoteInfo = Surge;
+		};
+		F728461B19F7B371008D81A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F740490019F792E800F58A9E /* Surge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A1E1A919917A79009735E2;
+			remoteInfo = Surge;
+		};
 		F74048F119F7734000F58A9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F74048D319F7734000F58A9E /* Project object */;
@@ -23,9 +41,50 @@
 			remoteGlobalIDString = F74048DA19F7734000F58A9E;
 			remoteInfo = SurgeStudy;
 		};
+		F740490519F792E800F58A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F740490019F792E800F58A9E /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8A1E1AA19917A79009735E2;
+			remoteInfo = Surge;
+		};
+		F740490719F792E800F58A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F740490019F792E800F58A9E /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F84A6AAE19A9A72F007B53E1;
+			remoteInfo = SurgeTests;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F728461D19F7B379008D81A8 /* Copy Files (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F728461E19F7B38A008D81A8 /* Surge.framework in Copy Files (1 item) */,
+			);
+			name = "Copy Files (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F740490A19F793FB00F58A9E /* Copy Files (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F740490B19F7941300F58A9E /* Surge.framework in Copy Files (1 item) */,
+			);
+			name = "Copy Files (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F728461F19F7BCDF008D81A8 /* SurgeAddTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeAddTests.swift; sourceTree = "<group>"; };
+		F728462119F7CB59008D81A8 /* SurgeSqrtTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeSqrtTests.swift; sourceTree = "<group>"; };
 		F74048DB19F7734000F58A9E /* SurgeStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurgeStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74048DF19F7734000F58A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74048E019F7734000F58A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +94,8 @@
 		F74048EA19F7734000F58A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F74048F019F7734000F58A9E /* SurgeStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurgeStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74048F519F7734000F58A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74048F619F7734000F58A9E /* SurgeStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeStudyTests.swift; sourceTree = "<group>"; };
+		F74048F619F7734000F58A9E /* SurgeSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeSumTests.swift; sourceTree = "<group>"; };
+		F740490019F792E800F58A9E /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = Surge/Surge.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F74048DD19F7734000F58A9E /* SurgeStudy */,
+				F740490019F792E800F58A9E /* Surge.xcodeproj */,
 				F74048F319F7734000F58A9E /* SurgeStudyTests */,
 				F74048DC19F7734000F58A9E /* Products */,
 			);
@@ -98,7 +159,9 @@
 		F74048F319F7734000F58A9E /* SurgeStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				F74048F619F7734000F58A9E /* SurgeStudyTests.swift */,
+				F74048F619F7734000F58A9E /* SurgeSumTests.swift */,
+				F728461F19F7BCDF008D81A8 /* SurgeAddTests.swift */,
+				F728462119F7CB59008D81A8 /* SurgeSqrtTests.swift */,
 				F74048F419F7734000F58A9E /* Supporting Files */,
 			);
 			path = SurgeStudyTests;
@@ -112,6 +175,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F740490119F792E800F58A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F740490619F792E800F58A9E /* Surge.framework */,
+				F740490819F792E800F58A9E /* SurgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +194,12 @@
 				F74048D719F7734000F58A9E /* Sources */,
 				F74048D819F7734000F58A9E /* Frameworks */,
 				F74048D919F7734000F58A9E /* Resources */,
+				F740490A19F793FB00F58A9E /* Copy Files (1 item) */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F728461A19F7ABB9008D81A8 /* PBXTargetDependency */,
 			);
 			name = SurgeStudy;
 			productName = SurgeStudy;
@@ -139,10 +213,12 @@
 				F74048EC19F7734000F58A9E /* Sources */,
 				F74048ED19F7734000F58A9E /* Frameworks */,
 				F74048EE19F7734000F58A9E /* Resources */,
+				F728461D19F7B379008D81A8 /* Copy Files (1 item) */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F728461C19F7B371008D81A8 /* PBXTargetDependency */,
 				F74048F219F7734000F58A9E /* PBXTargetDependency */,
 			);
 			name = SurgeStudyTests;
@@ -179,6 +255,12 @@
 			mainGroup = F74048D219F7734000F58A9E;
 			productRefGroup = F74048DC19F7734000F58A9E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F740490119F792E800F58A9E /* Products */;
+					ProjectRef = F740490019F792E800F58A9E /* Surge.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F74048DA19F7734000F58A9E /* SurgeStudy */,
@@ -186,6 +268,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F740490619F792E800F58A9E /* Surge.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Surge.framework;
+			remoteRef = F740490519F792E800F58A9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F740490819F792E800F58A9E /* SurgeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SurgeTests.xctest;
+			remoteRef = F740490719F792E800F58A9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F74048D919F7734000F58A9E /* Resources */ = {
@@ -221,13 +320,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74048F719F7734000F58A9E /* SurgeStudyTests.swift in Sources */,
+				F728462019F7BCDF008D81A8 /* SurgeAddTests.swift in Sources */,
+				F728462219F7CB59008D81A8 /* SurgeSqrtTests.swift in Sources */,
+				F74048F719F7734000F58A9E /* SurgeSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F728461A19F7ABB9008D81A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Surge;
+			targetProxy = F728461919F7ABB9008D81A8 /* PBXContainerItemProxy */;
+		};
+		F728461C19F7B371008D81A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Surge;
+			targetProxy = F728461B19F7B371008D81A8 /* PBXContainerItemProxy */;
+		};
 		F74048F219F7734000F58A9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F74048DA19F7734000F58A9E /* SurgeStudy */;
@@ -405,6 +516,7 @@
 				F74048FC19F7734000F58A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74048FD19F7734000F58A9E /* Build configuration list for PBXNativeTarget "SurgeStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +525,7 @@
 				F74048FF19F7734000F58A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
