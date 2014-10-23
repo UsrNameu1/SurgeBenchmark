@@ -15,14 +15,9 @@ class SurgeSumTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        
         let largeNumber = 100
         let list = [Int](1...largeNumber)
         doubleList = list.map {i in Double(i)}
-    }
-    
-    override func tearDown() {
-        super.tearDown()
     }
     
     func testSurgeSum() {

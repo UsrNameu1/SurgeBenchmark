@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F728461E19F7B38A008D81A8 /* Surge.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = F740490619F792E800F58A9E /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F728462019F7BCDF008D81A8 /* SurgeAddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728461F19F7BCDF008D81A8 /* SurgeAddTests.swift */; };
-		F728462219F7CB59008D81A8 /* SurgeSqrtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728462119F7CB59008D81A8 /* SurgeSqrtTests.swift */; };
 		F74048E119F7734000F58A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048E019F7734000F58A9E /* AppDelegate.swift */; };
 		F74048E319F7734000F58A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048E219F7734000F58A9E /* ViewController.swift */; };
 		F74048E619F7734000F58A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74048E419F7734000F58A9E /* Main.storyboard */; };
 		F74048E819F7734000F58A9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74048E719F7734000F58A9E /* Images.xcassets */; };
 		F74048EB19F7734000F58A9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74048E919F7734000F58A9E /* LaunchScreen.xib */; };
-		F74048F719F7734000F58A9E /* SurgeSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74048F619F7734000F58A9E /* SurgeSumTests.swift */; };
 		F740490B19F7941300F58A9E /* Surge.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = F740490619F792E800F58A9E /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F756ED4619F91F1D00611EFD /* SurgeAddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756ED4219F91F1D00611EFD /* SurgeAddTests.swift */; };
+		F756ED4719F91F1D00611EFD /* SurgePowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756ED4319F91F1D00611EFD /* SurgePowTests.swift */; };
+		F756ED4819F91F1D00611EFD /* SurgeSqrtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756ED4419F91F1D00611EFD /* SurgeSqrtTests.swift */; };
+		F756ED4919F91F1D00611EFD /* SurgeSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756ED4519F91F1D00611EFD /* SurgeSumTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +84,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F728461F19F7BCDF008D81A8 /* SurgeAddTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeAddTests.swift; sourceTree = "<group>"; };
-		F728462119F7CB59008D81A8 /* SurgeSqrtTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeSqrtTests.swift; sourceTree = "<group>"; };
 		F74048DB19F7734000F58A9E /* SurgeStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurgeStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74048DF19F7734000F58A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74048E019F7734000F58A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,8 +93,11 @@
 		F74048EA19F7734000F58A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F74048F019F7734000F58A9E /* SurgeStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurgeStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74048F519F7734000F58A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74048F619F7734000F58A9E /* SurgeSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgeSumTests.swift; sourceTree = "<group>"; };
 		F740490019F792E800F58A9E /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = Surge/Surge.xcodeproj; sourceTree = "<group>"; };
+		F756ED4219F91F1D00611EFD /* SurgeAddTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeAddTests.swift; sourceTree = "<group>"; };
+		F756ED4319F91F1D00611EFD /* SurgePowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgePowTests.swift; sourceTree = "<group>"; };
+		F756ED4419F91F1D00611EFD /* SurgeSqrtTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeSqrtTests.swift; sourceTree = "<group>"; };
+		F756ED4519F91F1D00611EFD /* SurgeSumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurgeSumTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +161,10 @@
 		F74048F319F7734000F58A9E /* SurgeStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				F74048F619F7734000F58A9E /* SurgeSumTests.swift */,
-				F728461F19F7BCDF008D81A8 /* SurgeAddTests.swift */,
-				F728462119F7CB59008D81A8 /* SurgeSqrtTests.swift */,
+				F756ED4219F91F1D00611EFD /* SurgeAddTests.swift */,
+				F756ED4319F91F1D00611EFD /* SurgePowTests.swift */,
+				F756ED4419F91F1D00611EFD /* SurgeSqrtTests.swift */,
+				F756ED4519F91F1D00611EFD /* SurgeSumTests.swift */,
 				F74048F419F7734000F58A9E /* Supporting Files */,
 			);
 			path = SurgeStudyTests;
@@ -320,9 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F728462019F7BCDF008D81A8 /* SurgeAddTests.swift in Sources */,
-				F728462219F7CB59008D81A8 /* SurgeSqrtTests.swift in Sources */,
-				F74048F719F7734000F58A9E /* SurgeSumTests.swift in Sources */,
+				F756ED4919F91F1D00611EFD /* SurgeSumTests.swift in Sources */,
+				F756ED4619F91F1D00611EFD /* SurgeAddTests.swift in Sources */,
+				F756ED4819F91F1D00611EFD /* SurgeSqrtTests.swift in Sources */,
+				F756ED4719F91F1D00611EFD /* SurgePowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -478,6 +483,7 @@
 				INFOPLIST_FILE = SurgeStudyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurgeStudy.app/SurgeStudy";
 			};
 			name = Debug;
@@ -486,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

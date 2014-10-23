@@ -10,19 +10,15 @@ import XCTest
 import Surge
 
 class SurgeSqrtTests: XCTestCase {
-
+    
     var doubleList: [Double] = [Double]()
     
     override func setUp() {
         super.setUp()
         
-        let largeNumber = 1000000
+        let largeNumber = 100000
         let list = [Int](1...largeNumber)
         doubleList = list.map {i in Double(i)}
-    }
-    
-    override func tearDown() {
-        super.tearDown()
     }
     
     func testSurgeSqrt() {
@@ -33,7 +29,7 @@ class SurgeSqrtTests: XCTestCase {
     
     func testNativeSqrt() {
         self.measureBlock {
-            let result = sqrt(reduce(self.doubleList, 0) { acc, x in acc + x * x})
+            let result = self.doubleList.map { x in sqrt (x) }
         }
     }
 }
