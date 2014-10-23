@@ -29,7 +29,7 @@ class SurgeSqrtTests: XCTestCase {
     
     func testNativeSqrt() {
         self.measureBlock {
-            let result = self.doubleList.map { x in sqrt (x) }
+            let result = self.doubleList.map(sqrt)
         }
     }
 }
