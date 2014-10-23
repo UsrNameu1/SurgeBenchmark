@@ -29,7 +29,7 @@ class SurgeAddTests: XCTestCase {
     
     func testNativeAdd() {
         self.measureBlock {
-            let add = map(Zip2(self.doubleList, self.doubleList)) { a, b in a + b }
+            let add = map(Zip2(self.doubleList, self.doubleList), +)
         }
     }
 }

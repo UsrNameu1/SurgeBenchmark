@@ -31,6 +31,7 @@ class SurgePowTests: XCTestCase {
     func testNativePow() {
         self.measureBlock {
             let result = map(Zip2(self.bases, self.exponents), pow)
+            
         }
     }
 }
